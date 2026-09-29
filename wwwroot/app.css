@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f5f5f5;
+    color: #222;
+}
+
+.pagina {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: white;
+    min-height: 100vh;
+}
+
+header {
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+nav {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: #1f5fa8;
+    text-decoration: none;
+}
+
+nav a.active {
+    font-weight: bold;
+}
+
+main {
+    padding: 25px;
+}
+
+button {
+    padding: 8px 12px;
+    margin: 5px 5px 5px 0;
+    cursor: pointer;
+}

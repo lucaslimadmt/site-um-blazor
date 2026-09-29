@@ -1,0 +1,18 @@
+@inherits LayoutComponentBase
+
+<div class="pagina">
+    <header>
+        <h2>Site Um Blazor</h2>
+        <nav>
+            <NavLink href="/" Match="NavLinkMatch.All">Início</NavLink>
+            <NavLink href="/sobre">Sobre</NavLink>
+            <NavLink href="/contador">Contador</NavLink>
+            <NavLink href="/mensagem">Mensagem</NavLink>
+            <NavLink href="/placar">Placar</NavLink>
+        </nav>
+    </header>
+
+    <main>
+        @Body
+    </main>
+</div>
