@@ -1,21 +1,49 @@
-# SiteUmBlazor
+# Site Um — Blazor
 
-Projeto desenvolvido para a lista de exercícios de Blazor da disciplina de Desenvolvimento Web.
+Projeto acadêmico em C# e Blazor composto por quatro exercícios de desenvolvimento web.
 
-## Páginas da atividade
+## Páginas
 
-- `/sobre` - Página Sobre Mim
-- `/contador` - Contador de cliques
-- `/mensagem` - Alternador de mensagem
-- `/placar` - Placar interativo
+- `/sobre` — página “Sobre Mim”.
+- `/contador` — contador de cliques.
+- `/mensagem` — alternador de mensagem.
+- `/placar` — placar interativo.
+
+## Tecnologias
+
+- C#
+- .NET
+- Blazor
+- Razor Components
+- HTML
+- CSS
+
+## Estrutura principal
+
+```text
+Components/
+├── Layout/
+├── Pages/
+│   ├── Exercicio1/
+│   ├── Exercicio2/
+│   ├── Exercicio3/
+│   └── Exercicio4/
+├── App.razor
+├── Routes.razor
+└── _Imports.razor
+```
 
 ## Como executar
 
-No terminal, dentro da pasta do projeto:
+Com o .NET SDK instalado:
 
 ```bash
 dotnet restore
 dotnet run
 ```
 
-Depois, acesse o endereço exibido no terminal.
+Depois, abra no navegador o endereço exibido pelo terminal.
+
+## Contexto
+
+Lista de exercícios acadêmicos da disciplina de desenvolvimento web.
